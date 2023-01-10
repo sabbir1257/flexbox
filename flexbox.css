@@ -1,0 +1,23 @@
+.container{
+    border: 2px dotted purple;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    align-items: stretch;
+
+    height: 300px;
+}
+
+#box-2{
+    flex-grow: 1;
+}
+
+.box {
+    font-size: 3em;
+    font-weight: 700;
+    border: 1px dashed peru;
+    width: 200px;
+    /* height: 200px; */
+}
